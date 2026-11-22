@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.hyperdash/data",
+  "title": "Hyperdash Data",
+  "description": "Live and historical Hyperliquid data for AI agents: markets, wallets, liquidations and analytics.",
+  "websiteUrl": "https://docs.hyperdash.com/data-api/mcp",
+  "version": "1.0.0",
+  "icons": [
+    {
+      "src": "https://hyperdash.com/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    },
+    {
+      "src": "https://hyperdash.com/favicon.svg",
+      "mimeType": "image/svg+xml"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://data.hyperdash.com/mcp"
+    }
+  ]
+}
